@@ -1,11 +1,11 @@
 //1.
 let isDog = true;
-console.log(isDog ? 'pat, pat' : 'find me a dog to pat!')
+console.log(isDog ? "Pat, pat, good dog" : 'find me a dog to pat!')
 
 //2:
-let speedLimit = '50km/h';
-let yourSpeed = '200km/h';
-console.log( +(yourSpeed.slice(0,-4)) > +(speedLimit.slice(0,-4)) ?"you're going too fast!":"You're driving below the speed limit, Oma");
+let speedLimit = 50;
+let yourSpeed = 200;
+console.log(yourSpeed > speedLimit ?"you're going too fast!":"You're driving below the speed limit, Oma");
 
 //3.
 let age=11;
